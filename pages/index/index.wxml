@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <input value="{{count}}" bindinput="handleChange" data-name="count" type="number"/>
+  <view>{{count}}的两倍： {{sum}}</view>
+  <input value="{{name}}" bindinput="handleChange" data-name="name"/>
+  <button bindtap="handleToNext">子页面</button>
+  
+</view>
